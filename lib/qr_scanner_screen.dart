@@ -338,13 +338,6 @@ class _QrScannerScreenState extends State<QrScannerScreen> {
             ),
           ],
         ),
-        bottomNavigationBar: isBannerAdReady
-            ? SizedBox(
-                height: _bannerAd.size.height.toDouble(),
-                width: _bannerAd.size.width.toDouble(),
-                child: AdWidget(ad: _bannerAd),
-              )
-            : null,
       );
     }
   }
